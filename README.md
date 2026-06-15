@@ -1,2 +1,2 @@
 # linux-learning-journal
-Basic to pro commands, deep notes and my progress.
+Learning linux concepts through foundations to advanced commands, noting their outputs to build strong pillars.
