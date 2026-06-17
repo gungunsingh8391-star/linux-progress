@@ -26,3 +26,15 @@
 /media: Automatic mount points for removable storage media, like USB thumb drives or external hard disks.
 /srv: Site-specific data served by the system, such as files for a web server or an FTP server.
 /lib & /lib64: Shared libraries essential for the binaries in /bin and /sbin to function.
+
+## Hard link: 
+1. The inode no remains the same for both the original file and hardlink, so the data can be accessed if the original file gets deleted.
+2. Changes occur in orginal file and hardlink.
+3. limitations: that cannot be linked to directories and cannot cross different file systems and partitions.
+
+## Soft link: 
+1. A soft link is essentially a shortcut.
+2. It stores the path string of the target file.
+3. owns a unique inode number and shows up as a link type (l).
+4. If you delete the original file, the soft link becomes broken.
+5. Limitations: can be linked to directories and cannot cross different filesystems or external drives.
