@@ -42,7 +42,5 @@ G and g to move to the end and beginning of file, /characters for searching char
 ln target_file link_name
 
 ## Soft link: 
-ln target_file link_name
-
 ln -s target_file link_name
 
