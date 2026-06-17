@@ -12,6 +12,7 @@
 2. /root: The separate, private home directory specifically for the root (administrator) user.
 3. /usr: The largest directory, containing user binaries, libraries, documentation, and source code for secondary programs.
 4. /opt: Optional add-on software packages. Commercial or third-party software (like Google Chrome or Discord) often installs here.
+5. /usr/local: The location where system administrators install programs locally. Programs compiled from source code go here so they do not overwrite core system files.
 
 ## Virtual and Runtime Directories
 1. /dev: Device files. In Linux, hardware devices (like hard drives, keyboards, or disk1.img) are represented as files here.
