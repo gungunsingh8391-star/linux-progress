@@ -5,7 +5,7 @@ Use_Case: list the free space and all directories on disk drives
 Use_Case: free memory on system.
 
 ## Linux follows a hierarchical directory structure.
-## almost every command follows this: command -option arguments (ex, tar -czf backup.tar.gz /home/user/documents)
+almost every command follows this: command -option arguments (ex, tar -czf backup.tar.gz /home/user/documents)
 
 ##cd -
 Use_Case: to get back on previous directory.
@@ -21,7 +21,7 @@ use_case: to display multiple lists (eg, root user and /user)
 -A does not list current and parent directory.
 -h for human-readable output.
 -l for long output
--d for listing directories and their content only/\.
+-d for listing directories and their content only.
 -F for classifying the files and folders.
 -r for reversing the output
 -s for sorting result by file size.
@@ -29,6 +29,11 @@ use_case: to display multiple lists (eg, root user and /user)
 -h for help screen.
 -q to quit.
 -i for inode number.
+-a copies a folder exactly as a carbon copy, preserving all its original permissions, timestamps, and links.
+-i for interacting with user for confirmation.
+-u for update. 
+-v for verbose, displays information message.
+-f for forcing the system for process.
 
 ## file filename
 use_case: to determine the type of content the file and folder has.
