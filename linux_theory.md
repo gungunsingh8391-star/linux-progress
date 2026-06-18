@@ -39,3 +39,14 @@
 3. owns a unique inode number and shows up as a link type (l).
 4. If you delete the original file, the soft link becomes broken.
 5. Limitations: can be linked to directories and cannot cross different filesystems or external drives.
+
+## Wildcards:
+special characters help rapidly specify group of file name.
+
+* : match any char including none.
+? : match single char.
+[char] : match any char, member of set chars.
+[!char] : match any char, not member of set chars.
+[[:class:] : match any char, member of specified class.
+
+## [:alnum:], [:alpha:], [:digit:], [:lower:], [:upper:]
