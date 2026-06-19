@@ -43,11 +43,11 @@
 ## Wildcards:
 special characters help rapidly specify group of file name.
 
-* : match any char including none.
-? : match single char.
-[char] : match any char, member of set chars.
-[!char] : match any char, not member of set chars.
-[[:class:] : match any char, member of specified class.
+1. * : match any char including none.
+2. ? : match single char.
+3. [char] : match any char, member of set chars.
+4. [!char] : match any char, not member of set chars.
+5. [[:class:] : match any char, member of specified class.
 
 ## [:alnum:], [:alpha:], [:digit:], [:lower:], [:upper:]
 Use ";" for one command on a line by separating each command.
