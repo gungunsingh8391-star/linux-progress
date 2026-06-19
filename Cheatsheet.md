@@ -17,23 +17,23 @@ Use_Case: to switch b/w users.
 use_case: to display multiple lists (eg, root user and /user)
 
 ## options with commands (can be used combined):
--a for displaying hidden files, denoted by a period.
--A does not list current and parent directory.
--h for human-readable output.
--l for long output
--d for listing directories and their content only.
--F for classifying the files and folders.
--r for reversing the output
--s for sorting result by file size.
--t for sorting by modification time.
--h for help screen.
--q to quit.
--i for inode number.
--a copies a folder exactly as a carbon copy, preserving all its original permissions, timestamps, and links.
--i for interacting with user for confirmation.
--u for update. 
--v for verbose, displays information message.
--f for forcing the system for process.
+1. -a for displaying hidden files, denoted by a period.
+2. -A does not list current and parent directory.
+3. -h for human-readable output.
+4. -l for long output
+5. -d for listing directories and their content only.
+6. -F for classifying the files and folders.
+7. -r for reversing the output
+8. -s for sorting result by file size.
+9. -t for sorting by modification time.
+10. -h for help screen.
+11. -q to quit.
+12. -i for inode number.
+13. -a copies a folder exactly as a carbon copy, preserving all its original permissions, timestamps, and links.
+14. -i for interacting with user for confirmation.
+15. -u for update. 
+16. -v for verbose, displays information message.
+17. -f for forcing the system for process.
 
 ## file filename
 use_case: to determine the type of content the file and folder has.
