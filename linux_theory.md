@@ -50,3 +50,9 @@ special characters help rapidly specify group of file name.
 [[:class:] : match any char, member of specified class.
 
 ## [:alnum:], [:alpha:], [:digit:], [:lower:], [:upper:]
+Use ";" for one command on a line by separating each command.
+
+## Type of commands
+1. Aliases are shortcuts of long commands, ex, ls -l -> ll
+2. Shell Builtins, which are built-in commands that don't need any external software to be executed.
+3. Executable Programs are external softwares, when runned, system execute their binaries.
