@@ -40,7 +40,7 @@ use_case: to determine the type of content the file and folder has.
 
 ## less filename
 use_case: to view the text files. Use b to one page up, space for down, up and down arrows for lines, 
-G and g to move to the end and beginning of file, /characters for searching characters. 
+G and g to move to the end and starting of file, /characters for searching characters. 
 
 ## Linux has pointers to files to access them from various locations. 
 ## Hard link: 
@@ -49,3 +49,22 @@ ln target_file link_name
 ## Soft link: 
 ln -s target_file link_name
 
+## Identifying Commands
+
+## type command
+use_case: to display a command type, the shell will execute.
+
+## whatis command 
+use_case: display one line description of man page.
+
+## zless
+use_case: display the content of gzip-compressed text files.
+
+## apropos 
+use_case: search the man page names and descriptions for a specific keyword.
+
+## info command
+use_case: Display highly detailed, hyperlinked and multipage docs.
+
+## alias name='string (separate by ;)' 
+use_case: custom shortcut for long commands. 1st search if name is alreay exixts, by using type. Use unalias to remove.
