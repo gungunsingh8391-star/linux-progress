@@ -65,5 +65,5 @@ The three most important file descriptors are:
 The shell redirection operators work on FDs.
 
 ## Redirection operator (>) vs Pipeline operator (|)
-1. > connects a command with a file. Be careful using this.
+1. '>' connects a command with a file. Be careful using this.
 2. | will take the stdout of a command as stdin for another command. 
