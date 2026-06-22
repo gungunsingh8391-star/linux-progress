@@ -86,3 +86,18 @@ use_case: a special file that vanishes the output or error. use it like { comman
 
 ## Pipeline operator (|)
 command 1 | command 2 | command 3
+
+## uniq command
+Use_case: to remove the duplicate. Use with -d to see duplicates.
+
+## wc filename
+Use_case: display line, word and bytes. we can limit it by -l, and it will take stdin, in case of no arguments.
+
+## grep pattern filename
+Use_case: to match the text patterns in files. -i for ignoring case. -w for matching whole word. -v for print lines not matching pattern. -l for output only file names matching pattern.
+
+## xargs
+Use_case: read stdin and convert command-line arguments for other commands, very useful. 
+
+## tee 
+use_case: read stdin and show stdout as well as in one or multiple files at same time.
