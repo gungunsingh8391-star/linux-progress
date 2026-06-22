@@ -55,4 +55,15 @@ Use ";" for one command on a line by separating each command.
 ## Type of commands
 1. Aliases are shortcuts of long commands, ex, ls -l -> ll
 2. Shell Builtins, which are built-in commands that don't need any external software to be executed.
-3. Executable Programs are external softwares, when runned, system execute their binaries.
+3. Executable Programs are external software, when run, system executes their binaries.
+
+## File descriptor
+The three most important file descriptors are:
+1. STDIN (standard input, <)
+2. STDOUT (standard output, >)
+3. STDERR (Standard error, >)
+The shell redirection operators work on FDs.
+
+## Redirection operator (>) vs Pipeline operator (|)
+1. > connects a command with a file. Be careful using this.
+2. | will take the stdout of a command as stdin for another command. 
