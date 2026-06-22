@@ -67,4 +67,22 @@ use_case: search the man page names and descriptions for a specific keyword.
 use_case: Display highly detailed, hyperlinked and multipage docs.
 
 ## alias name='string (separate by ;)' 
-use_case: custom shortcut for long commands. 1st search if name is alreay exixts, by using type. Use unalias to remove.
+use_case: custom shortcut for long commands. 1st search if name is already exists, by using type. Use unalias to remove.
+
+## Redirecting commands by using '>'
+Use_case: command > filename. It will redirect 'stdout'. 
+
+## Redirecting multiple commands by using '>>'
+Use_case: follow { command 1; command 2;  command 3; } >> filename. It will redirect 'stdout'. 
+To append both stdout and stderr, use  { command 1; command 2;  command 3; } &>> file.
+
+## /dev/null (bit bucket)
+use_case: a special file that vanishes the output or error. use it like { command 1; command 2; } >> log.txt 2> /dev/null. This will vanish error and append stdout to the file.
+
+## Cat, Tac, Rev
+1. cat displays stdout (something like less cmd, but pageless). Using cat '>'/'>>' file, will wait to write input and append to file.
+2. tac is the reverse of cat, from last line to the first line.
+3. rev will reverse lines characterwise.
+
+## Pipeline operator (|)
+command 1 | command 2 | command 3
