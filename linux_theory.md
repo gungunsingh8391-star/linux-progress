@@ -68,3 +68,20 @@ The shell redirection operators work on FDs.
 1. '>' connects a command with a file. Be careful using this.
 2. | will take the stdout of a command as stdin for another command. 
 we can use filters with |, ex: sort, uniq, uniq -d, tee, grep.
+
+## Types of Expansions:
+1. Pathname expansion (globbing): expands wildcards (eg., *, [], ?) into matching filenames and directories in the current path.
+2. Tilde expansion (~): current user or the home user, when used with echo.
+3. Arithmetic Expansion: $((expression)), where expression can contain only whole numbers, with basic operators.
+4. Brace expansion: can create multiple text strings from a pattern containing braces, can also be nested. Such as, for mkdir {1..15}, echo {Z..A}.
+5. Parameter Expansion: replaces a variable reference with its value, allowing variable substitution and manipulation in shell commands.
+
+## Command substitution (`` or $()):
+allows the use of the output of a command as expansion.
+
+## Quoting (selectively suppress unwanted expansion)
+Note: arithmetic expansion, parameter expansion and command substitution will still take place.
+> to supress all expansions, use single quotes.
+
+## Escaping characters
+use backslash to escape a single character from double quotes. -e option to echo will enable interpretation of escape sequences.
