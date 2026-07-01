@@ -101,3 +101,6 @@ Use_case: read stdin and convert command-line arguments for other commands, very
 
 ## tee 
 use_case: read stdin and show stdout as well as in one or multiple files at same time.
+
+## id 
+it will display uunique uid and gid of a user
