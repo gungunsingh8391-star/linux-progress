@@ -85,3 +85,22 @@ Note: arithmetic expansion, parameter expansion and command substitution will st
 
 ## Escaping characters
 use backslash to escape a single character from double quotes. -e option to echo will enable interpretation of escape sequences.
+
+## id commands:
+1. user accounts are defined in /etc/passwd and groups in /etc/group.
+2. User passwords are stored in /etc/shadow.
+3. Information of each user (uid, gid, home directory, login shell, real name) is stored in /etc/passwd.
+4. Information of group (uid, group name, group members) is stored in /etc/group file.
+
+## System users
+Linux has regular user accounts and system user accounts.
+The superuser (root) always have uid = 0.
+Other system users are created for running system services and applications securely.
+
+## File Types
+'-' as regular file, d as directory, l as link but with dummy values, c as characters referring to data moves one byte at a time such as ll /dev/null and b as block referring to data moves one chunk (block) at a time such as ll /dev/sda.
+
+## chmod command
+It supports octal number representation (represents 3 binary digits) and symbolic representation.
+-> Common octal to binary mapping are 7(rwx), 6(rw-), 5(r-x), 4(r--), 0(---).
+-> Symbolic representaion:  chmod Symbolic Notation are u for user, g for group, o for others and a for all (default), + for permission added, - is removed and = is for setting specific permissions, removing the earlier set permissions. (examples: go=rw; u+x,go=rx)
