@@ -104,3 +104,9 @@ use_case: read stdin and show stdout as well as in one or multiple files at same
 
 ## id 
 it will display the unique uid and gid of a user
+
+## umask
+use_case: it will display the unmask values; 0002 (Binary: 000 000 000 010) and 0022 (Binary: 000 000 010 010) is default. It determines the default permissions for newly created files and directories. 1 in umask → Remove permission. 0 in umask → Keep permission.
+
+## chown 
+use_case: used to change the ownership. Syntax is chown [owner][:[group]] file...
