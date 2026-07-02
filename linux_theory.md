@@ -104,5 +104,7 @@ Other system users are created for running system services and applications secu
 It supports octal number representation (represents 3 binary digits) and symbolic representation.
 -> Common octal to binary mapping are 7(rwx), 6(rw-), 5(r-x), 4(r--), 0(---).
 -> Symbolic representaion:  chmod Symbolic Notation are u for user, g for group, o for others and a for all (default), + for permission added, - is removed and = is for setting specific permissions, removing the earlier set permissions. (examples: go=rw; u+x,go=rx)
+-> less used permissions: setuid bit (octal 4000) [used as chmod u+s program], setgid bit (octal 2000) [used as chmod g+s dir] and stick bit (octal 1000) [used as chmod +t dir].
 
-## unmask command
+## sudo usermod -aG sudo name 
+It will give the other user the privilege of sudo. usermodify -append, add the user to sudo group, name for modigying the user.
