@@ -104,3 +104,5 @@ Other system users are created for running system services and applications secu
 It supports octal number representation (represents 3 binary digits) and symbolic representation.
 -> Common octal to binary mapping are 7(rwx), 6(rw-), 5(r-x), 4(r--), 0(---).
 -> Symbolic representaion:  chmod Symbolic Notation are u for user, g for group, o for others and a for all (default), + for permission added, - is removed and = is for setting specific permissions, removing the earlier set permissions. (examples: go=rw; u+x,go=rx)
+
+## unmask command
