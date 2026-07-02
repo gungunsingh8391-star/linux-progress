@@ -103,4 +103,4 @@ Use_case: read stdin and convert command-line arguments for other commands, very
 use_case: read stdin and show stdout as well as in one or multiple files at same time.
 
 ## id 
-it will display uunique uid and gid of a user
+it will display the unique uid and gid of a user
