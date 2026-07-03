@@ -10,8 +10,8 @@ I am a student learning Linux from "The Linux Command Line" by William Shotts.
 - [x] Chapter 5: Working with Commands
 - [x] Chapter 6: Redirection
 - [x] Chapter 7: Expansion
-- [ ] Chapter 8: Advanced Keyboard Tricks
-- [ ] Chapter 9: Permissions
+- [x] Chapter 8: Advanced Keyboard Tricks
+- [x] Chapter 9: Permissions
 - [ ] Chapter 10: Processes
 - [ ] Chapter 11: Environment
 - [ ] Chapter 12: vi
