@@ -110,3 +110,8 @@ use_case: it will display the unmask values; 0002 (Binary: 000 000 000 010) and 
 
 ## chown 
 use_case: used to change the ownership. Syntax is chown [owner][:[group]] file...
+
+## ps command
+use_case: used to view processes. TTY displayed in output identifies the terminal session that started a process. ps u is a user-oriented view and gives much more info than other options.
+## ps x and ps aux command
+In ps x, it displays all processes regardless of any terminal. ? indicates no controlling terminal. While in ps aux, VSZ (Virtual Memory Size) = total virtual memory reserved by the process, RSS = actual RAM used by process.
