@@ -112,3 +112,12 @@ It will give the other user the privilege of sudo. usermodify -append, add the u
 ## Linux PROCESSES
 Init launches 'systemd ', which starts all system services. Daemon programs runs in background having a UI.
 > STAT in 'ps x' reveals current status of process. S = sleeping, R = running or ready to run, D = uninterruptible sleep waiting for I/O, T = stopped, Z = zombie process which is terminate but not cleaned by parent process. < high-priority process 'less nice'. N = low-priority process 'nice'.
+
+## top command structure
+Summary displays current time, uptime (since started), currently logged users, avg CPU load over in last 1 min, 5 min, 15 min. Tasks summarise processes and their states. CPU (s) describes performing, eg., us (user processes), system proc., ni (nice proc.), idle (id), hi (hardware interrupts), wa(waiting for i/o). Mem shows physical RAM usage and Swap shows virtual memory usage.
+
+## Running process in background:
+To do so, use & sign. It can let us to use shell and keep running the process in bg. The job no and PID is printed. 'jobs' command can be used to see running process. 'fg %1' eg, fg followed by % and job no, can be used to return process to foreground. 
+
+## Stopping process in background:
+Stopping a process without terminating which is to stop a foreground process in bg, use ctrl z. we can resume the process in bg, by using 'bg %1'.
