@@ -118,3 +118,12 @@ In ps x, it displays all processes regardless of any terminal. ? indicates no co
 
 ## top command
 use_case: To view the more dynamic view of machine's activity. 
+
+## nice command
+use_case: sudo nice -n -level program_name. Level range is -20 to 19 (low priority, high niceness). Used to increase or decrease niceness of a process, but be careful increasing priority. Superuser may increase, and regular user mau decrease.
+
+## renice command
+use_case: used to adjust niceness of running command. Syntax: renice -n level pid.
+
+## kill command
+use_case: used to terminate programs that need killing. Syntax: kill %no or kill pid. It directly doesnt kill any process, it just sends them signal. 
