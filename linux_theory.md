@@ -121,3 +121,16 @@ To do so, use & sign. It can let us to use shell and keep running the process in
 
 ## Stopping process in background:
 Stopping a process without terminating which is to stop a foreground process in bg, use ctrl z. we can resume the process in bg, by using 'bg %1'.
+
+## Responding signal by processes
+Processes receive signals from the operating system (or other processes) and can handle many of them by executing predefined actions.
+o Common Signals: SIGINT (Ctrl+C) → interrupt, SIGTSTP (Ctrl+Z) → stop temporarily, SIGTERM → terminate gracefully, SIGKILL (kill -9) → terminate immediately (cannot be caught or ignored).
+| Signal | Work                         |
+| ------ | ---------------------------- |
+| HUP    | Reload your settings         |
+| INT    | Ctrl+C → Stop now            |
+| TERM   | Please close politely        |
+| KILL   | Force close immediately      |
+| STOP   | Pause                        |
+| CONT   | Continue                     |
+| TSTP   | Ctrl+Z → Pause from keyboard |
