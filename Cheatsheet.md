@@ -126,4 +126,16 @@ use_case: sudo nice -n -level program_name. Level range is -20 to 19 (low priori
 use_case: used to adjust niceness of running command. Syntax: renice -n level pid.
 
 ## kill command
-use_case: used to terminate programs that need killing. Syntax: kill %no or kill pid. It directly doesnt kill any process, it just sends them signal. 
+use_case: used to terminate programs that need killing. Syntax: kill %no or kill pid. It directly doesnt kill any process, it just sends them signal. I doesnt destroy any process. Example, kill -STOP PID,kill -18 PID,etc.
+
+## nohup command
+use_case: Run a process that continues running even after terminal is closed. It prevents SIGHUP (hang up) signal.
+
+## killall command
+use_case: to send signal to multiple processes, matching a specific program or username. Syntax: killall [-u user] [-signal] name... IT require sudo for sending signals.
+
+## pstree command
+It will display processes in a tree-like structure, showing parent-child relationships.
+
+## vmstat command
+Snapshot of system resource usage.
