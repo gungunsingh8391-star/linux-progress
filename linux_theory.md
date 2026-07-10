@@ -125,12 +125,12 @@ Stopping a process without terminating which is to stop a foreground process in 
 ## Responding signal by processes
 Processes receive signals from the operating system (or other processes) and can handle many of them by executing predefined actions.
 o Common Signals: SIGINT (Ctrl+C) → interrupt, SIGTSTP (Ctrl+Z) → stop temporarily, SIGTERM → terminate gracefully, SIGKILL (kill -9) → terminate immediately (cannot be caught or ignored).
-| Signal | Work                         |
-| ------ | ---------------------------- |
-| HUP    | Reload your settings         |
-| INT    | Ctrl+C → Stop now            |
-| TERM   | Please close politely        |
-| KILL   | Force close immediately      |
-| STOP   | Pause                        |
-| CONT   | Continue                     |
-| TSTP   | Ctrl+Z → Pause from keyboard |
+| No. |  Signal | Work                         |
+| --- | ------ | ---------------------------- |
+|  1  | HUP    | Reload your settings         |
+|  2  | INT    | Ctrl+C → Stop now            |
+|  9  | TERM   | Please close politely        |
+|  15 | KILL   | Force close immediately      |
+|  18 | STOP   | Pause                        |
+|  19 | CONT   | Continue                     |
+|  20 | TSTP   | Ctrl+Z → Pause from keyboard |
