@@ -12,7 +12,7 @@ I am a student learning Linux from "The Linux Command Line" by William Shotts.
 - [x] Chapter 7: Expansion
 - [x] Chapter 8: Advanced Keyboard Tricks
 - [x] Chapter 9: Permissions
-- [ ] Chapter 10: Processes
+- [x] Chapter 10: Processes
 - [ ] Chapter 11: Environment
 - [ ] Chapter 12: vi
 - [ ] Chapter 13: Customizing the Prompt
