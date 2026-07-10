@@ -124,13 +124,31 @@ Stopping a process without terminating which is to stop a foreground process in 
 
 ## Responding signal by processes
 Processes receive signals from the operating system (or other processes) and can handle many of them by executing predefined actions.
-o Common Signals: SIGINT (Ctrl+C) → interrupt, SIGTSTP (Ctrl+Z) → stop temporarily, SIGTERM → terminate gracefully, SIGKILL (kill -9) → terminate immediately (cannot be caught or ignored).
+o Common Signals: SIGINT (Ctrl+C) → interrupt, SIGTSTP (Ctrl+Z) → stop temporarily, SIGTERM → terminate gracefully, SIGKILL (kill -9) → terminate immediately (cannot be caught or ignored). Kill do
 | No. | Signal | Work                         |
 | --- | ------ | ---------------------------- |
 |  1  |  HUP   | Reload your settings         |
 |  2  |  INT   | Ctrl+C → Stop now            |
+|  3  |  QUIT  | Quit the program, often used |
+               | for debugging                |
 |  9  |  TERM  | Please close politely        |
+|  11 |  SEGV  | Illegal memory access        |
 |  15 |  KILL  | Force close immediately      |
 |  18 |  STOP  | Pause                        |
 |  19 |  CONT  | Continue                     |
 |  20 |  TSTP  | Ctrl+Z → Pause from keyboard |
+|  28 |  INCH  | Window resize change         |
+
+## Shutting down system
+o linux performs an orderly shutdown to prevent dataloss.
+-> Steps performed:
+1. Terminates all running processes.
+2. Syncs (writes) any remaining data from RAM to the disk.
+3. Unmounts mounted file systems safely.
+4. Powers off or reboots the system.
+
+## Commands for shutdown
+1. halt: stop operating system.
+2. poweroff: shutdown os and poweroff the computer.
+3. reboot: restart os.
+4. shutdown: most flexible, used to shutdown immediately or after a specified delay. Broadcasts a warning message. ex: sudo shutdown -h now, sudo shutdown -r now.
