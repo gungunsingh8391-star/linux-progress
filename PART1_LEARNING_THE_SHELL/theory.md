@@ -43,7 +43,7 @@
 ## Wildcards:
 special characters help rapidly specify group of file name.
 
-1. * : match any char including none.
+1. "*" : match any char including none.
 2. ? : match single char.
 3. [char] : match any char, member of set chars.
 4. [!char] : match any char, not member of set chars.
