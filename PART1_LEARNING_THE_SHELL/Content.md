@@ -1,0 +1,10 @@
+- [x] Chapter 1: What is the Shell?
+- [x] Chapter 2: Navigation
+- [x] Chapter 3: Exploring the System
+- [x] Chapter 4: Manipulating Files and Directories
+- [x] Chapter 5: Working with Commands
+- [x] Chapter 6: Redirection
+- [x] Chapter 7: Expansion
+- [x] Chapter 8: Advanced Keyboard Tricks
+- [x] Chapter 9: Permissions
+- [x] Chapter 10: Processes
