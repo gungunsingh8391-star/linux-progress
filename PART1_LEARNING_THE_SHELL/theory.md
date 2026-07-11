@@ -47,7 +47,7 @@ special characters help rapidly specify group of file name.
 2. `?` : match single char.
 3. `[char]` : match any char, member of set chars.
 4. `[!char]` : match any char, not member of set chars.
-5. `[[:class:]` : match any char, member of specified class.
+5. `[[:class:]]` : match any char, member of specified class.
 
 ## [:alnum:], [:alpha:], [:digit:], [:lower:], [:upper:]
 Use ";" for one command on a line by separating each command.
