@@ -49,8 +49,8 @@ special characters help rapidly specify group of file name.
 4. `[!char]` : match any char, not member of set chars.
 5. `[[:class:]]` : match any char, member of specified class.
 
-## [:alnum:], [:alpha:], [:digit:], [:lower:], [:upper:]
-Use ";" for one command on a line by separating each command.
+More: `[:alnum:]`, `[:alpha:]`, `[:digit:]`, `[:lower:]`, `[:upper:]`
+Use  `;` for one command on a line by separating each command.
 
 ## Type of commands
 1. Aliases are shortcuts of long commands, ex, ls -l -> ll
