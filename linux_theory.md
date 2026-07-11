@@ -74,7 +74,11 @@ we can use filters with |, ex: sort, uniq, uniq -d, tee, grep.
 2. Tilde expansion (~): current user or the home user, when used with echo.
 3. Arithmetic Expansion: $((expression)), where expression can contain only whole numbers, with basic operators.
 4. Brace expansion: can create multiple text strings from a pattern containing braces, can also be nested. Such as, for mkdir {1..15}, echo {Z..A}.
-5. Parameter Expansion: replaces a variable reference with its value, allowing variable substitution and manipulation in shell commands.
+5. Parameter Expansion: replaces a variable reference with its value, allowing variable substitution and manipulation in shell commands. try:
+gungu@DESKTOP-RPODDVL:~$ foo="This is some "
+gungu@DESKTOP-RPODDVL:~$ echo $foo
+gungu@DESKTOP-RPODDVL:~$ foo=$foo"text. "
+gungu@DESKTOP-RPODDVL:~$ echo $foo
 
 ## Command substitution (`` or $()):
 allows the use of the output of a command as expansion.
