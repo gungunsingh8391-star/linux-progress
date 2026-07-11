@@ -7,10 +7,10 @@ Use_Case: free memory on system.
 ## Linux follows a hierarchical directory structure.
 almost every command follows this: command -option arguments (ex, tar -czf backup.tar.gz /home/user/documents)
 
-##cd -
+# cd -
 Use_Case: to get back on previous directory.
 
-##cd ~user_name 
+# cd ~user_name 
 Use_Case: to switch b/w users.
 
 ## ls ~ /usr
