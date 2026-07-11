@@ -17,6 +17,6 @@ Bash starts and reads a series of configuration scripts called startup files to 
 > `~/.bashrc` file is most important startup file as it is almost always read. Non-login shells read it by default and most startup files for login shells also read the `~/.bashrc` file as well.
 
 ## Startup file
-Inside "less ~/.profile", If the file "~/.bashrc" exists, then read the "~/.bashrc" file. So .bashrc is almost always executed. 
+Inside `less ~/.profile`, If the file `~/.bashrc` exists, then read the `~/.bashrc` file. So .bashrc is almost always executed. 
 PATH variable: this is where linux finds commands. it actually searches a list of directories contained in this var. See ## Setting PATH variable. We can create dir in home to store our private programs, just call "bin".
 
