@@ -11,7 +11,9 @@ Bash starts and reads a series of configuration scripts called startup files to 
 
 ## Types of shell session
 > Login shell session: prompted for username and password. Bash reads `/etc/profile` -> `~/.bash_profile` or `~/.bash_login` or `~/.profile`. So, when you log in. Login -> `.profile`
+>
 > Non-Login shell session: typically occurs when launching a terminal in GUI with terminal emulator. Bash reads `/etc/bash.bashrc` -> `~/.bashrc`. A new Bash terminal opens, Open Terminal -> `.bashrc`. This session inherits env var from parent process (like login shell)
+>
 > `~/.bashrc` file is most important startup file as it is almost always read. Non-login shells read it by default and most startup files for login shells also read the `~/.bashrc` file as well.
 
 ## Startup file
