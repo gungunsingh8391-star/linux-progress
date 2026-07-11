@@ -49,10 +49,10 @@ special characters help rapidly specify group of file name.
 4. `[!char]` : match any char, not member of set chars.
 5. `[[:class:]]` : match any char, member of specified class.
 
-More: `[:alnum:]`, `[:alpha:]`, `[:digit:]`, `[:lower:]`, `[:upper:]`
+More: `[:alnum:]`, `[:alpha:]`, `[:digit:]`, `[:lower:]`, `[:upper:]`.
 Use  `;` for one command on a line by separating each command.
 
-## Type of commands
+## Types of commands
 1. Aliases are shortcuts of long commands, ex, ls -l -> ll
 2. Shell Builtins, which are built-in commands that don't need any external software to be executed.
 3. Executable Programs are external software, when run, system executes their binaries.
@@ -118,7 +118,7 @@ It supports "octal number" representation (represents 3 binary digits) and symbo
 It will give the other user the privilege of sudo. usermodify -append, add the user to sudo group, name for modigying the user.
 
 ## Linux PROCESSES
-Init launches 'systemd ', which starts all system services. Daemon programs runs in background having a UI.
+Init launches `systemd`, which starts all system services. Daemon programs runs in background having a UI.
 STAT in `ps x` reveals current status of process. S = sleeping, R = running or ready to run, D = uninterruptible sleep waiting for I/O, T = stopped, Z = zombie process which is terminate but not cleaned by parent process. < high-priority process 'less nice'. N = low-priority process 'nice'.
 
 ## top command structure
