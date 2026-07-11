@@ -1,0 +1,3 @@
+- [ ] Chapter 11: Environment
+- [ ] Chapter 12: vi
+- [ ] Chapter 13: Customizing the Prompt
