@@ -22,8 +22,8 @@
 
 ## Setting PATH variable
 The PATH variable is often set by the .profile startup file with this code: 
-PATH=$PATH:$HOME/bin
-PATH is modified to add the directory $HOME/bin to the end of the list, which is an example of parameter expansion. Now $HOME/bin is added to the list of directories searched.
+`PATH=$PATH:$HOME/bin`
+PATH is modified to add the directory `$HOME/bin` to the end of the list, which is an example of parameter expansion. Now `$HOME/bin` is added to the list of directories searched.
 
 ## export command
-use_case: to convert shell var to env var. "export PATH" to make the content of PATH var available to child.
+use_case: to convert shell var to env var. `export PATH` to make the content of PATH var available to child.
